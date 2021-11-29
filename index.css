@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#circuito {
+    background-image: url('./asfalto.jpg');
+    width: 100%;
+    height: 100vh;
+}
+
+img {
+    top:0;
+    left: 0;
+    width: 200px;
+    height: auto;
+    position: absolute;
+}
+
+ul {
+    height: 0px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li {
+    font-size: 2em;
+    margin: 10px;
+}
